@@ -1,0 +1,66 @@
+.title h3{
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+}
+.title{
+    margin: 0 20px;
+}
+.rusume{
+    list-style-type: none;
+    /* padding-left: 20px; */
+    /* padding: 20px; */
+}
+.rusume-container{
+    padding: 20px;
+}
+.rusume li{
+    list-style-type: none;
+    border-left: 2px solid #787878;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    position: relative;
+}
+.rusume li:before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border-color: #ffb100;
+    border-width: 2px;
+    border-style: solid;
+    position: absolute;
+    left: -5px;
+    top: 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+.rusume li:first-child:before{
+    display: none;   
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: #ffbd22;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    background-size: 30px auto;
+    margin-left: -40px;
+    margin-top: -40px;
+    box-shadow: 0 2px 32px #047bf84d;
+}
+.rusume-container{
+    padding: 20px;
+    display: flex;
+}
+.rusume-content{
+    width: 50%;
+    padding: 20px;
+}
+.icon h2{
+    display: flex;
+}

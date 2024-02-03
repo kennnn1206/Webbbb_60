@@ -1,0 +1,20 @@
+@media screen and (max-width:1024px) {
+    .container-cv .sidebar{
+        width: 100%;
+    }
+    .container-cv  .right-container{
+        width: 100%;
+    }
+}
+@media screen and (max-width:912px) {
+    
+    .portfolio-item1{
+        gap: 12px;
+    }
+}
+@media screen and (max-width:412px) {
+    
+    .right-container{
+        margin: 0;
+    }
+}

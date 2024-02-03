@@ -1,0 +1,17 @@
+body{
+    background-color: #009294;
+    color: #FFFFFF ;
+}
+.hello{
+    background-color: yellow;
+    Text-align: center;
+}
+.text{
+    Font-size: 16pt;
+    Color: #FF0000;
+}
+.list{
+    Border-style: dashed;
+    Border-width: 4px;
+    Border-color: blue; 
+}
